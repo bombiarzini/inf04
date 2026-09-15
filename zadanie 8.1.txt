@@ -1,0 +1,22 @@
+zadanie 8.1
+
+1
+
+ponieważ nie sa prawdziwie losowane bo opierają się na zegarze
+
+2
+
+zwroci zakres wartości 1-49 ponieważ gorna granica jest wylaczona
+
+3
+
+ponieważ jeśli jest losowany na podstawie zegara mogą wystapic powtorzenia
+
+4
+
+na przykładzie loterii losowanie z powtórzeniami nie może wystapic
+a losowanie bez powtorzen to takie gdzie kazda liczba jest inna
+
+5
+
+jest to tablica pomocnicza do sprawdzania czy się powtarza

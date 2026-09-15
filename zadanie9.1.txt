@@ -1,0 +1,22 @@
+zadanie9.1
+
+1 Czym różni się parametr od argumentu? 
+
+parametr definiujemy a argument przekazujemy
+
+2 Co oznacza słowo void w definicji metody i kiedy je stosujemy? 
+
+void oznacza pusty, ta metoda nie zwraca niczego 
+
+3 Jakie dwa zadania wykonuje instrukcja return? 
+
+zwraca wartość oraz natychmiast konczy działanie metody
+
+4 Dlaczego metoda zmieniająca elementy przekazanej tablicy modyfikuje oryginał, a nie kopię? 
+
+
+
+5
+Dlaczego arkusz INF.04 zaleca przekazywanie danych przez parametry zamiast korzystania ze zmiennych globalnych? 
+
+dlatego ze zmienna globalna jest latwo zmienić i taki swobodny dostep do zmiennej może powodować bledy

@@ -1,0 +1,22 @@
+zadanie 7.1
+
+1 Jakimi dwoma indeksami wskazujemy pojedynczy element tablicy dwuwymiarowej i co oznacza każdy z nich? 
+[1,1] tablica zawiera dwa indeksy i pierwszy oznacza wiersze a drugi kolumny 
+
+2 Czym różni się macierz.Length od macierz.GetLength(1) dla tablicy o rozmiarze 5 na 6? 
+
+macierz.GetLength(1) oznacza liczbe kolumn, (0) oznacza liczbe wierszy natomiast macierz.Length laczna ilość komorek
+
+3 Co przechowuje pojedynczy wiersz w strukturze n×6 stosowanej w arkuszach INF.04? 
+
+
+
+4 Wymień dwie sytuacje, w których lista List<T> jest wygodniejsza od tablicy. 
+
+-kiedy nie chcemy sztywno deklarować ile miejsca na potrzeba
+-możemy latwo dodawać i usuwac elementy ze srodka
+
+5 Jakiej właściwości używamy do odczytania liczby elementów listy i czym różni się ona od właściwości tablicy? 
+
+.Count rozni się tym ze po usunieciu z listy automatycznie ta liczba się zmieni a w tablicy trzeba recznie
+przesunąć dane

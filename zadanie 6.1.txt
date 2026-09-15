@@ -1,0 +1,18 @@
+zadanie 6.1
+1 pierwszy element tablicy ma indeks 0 a ostatni o jeden mniejszy niż
+rozmiar czyli 7
+ 
+2 Czym różni się deklaracja int[] t = new int[5]; od int[] t = { 1, 2, 3, 4, 5 };? 
+
+pierwsza deklaracja tworzy pusta tablice a druga tworzy tablice ale już uzupelniona 
+
+3 Dlaczego w pętli przeglądającej tablicę stosujemy warunek i < t.Length, a nie i <= t.Length? 
+
+ponieważ petla probowalaby odwolac się do nieistniejącego indeksu
+
+4 Do czego służy właściwość Length i jakiego typu wartość zwraca?
+do odczytu tablicy 
+
+5 Dlaczego przy wyznaczaniu maksimum wartość początkową ustawiamy na pierwszy element tablicy, a nie na zero? 
+ponieważ otrzymamy bledny wynik  wszystkie wartości bylyby ujemne
+

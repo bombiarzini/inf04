@@ -1,0 +1,64 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int sekret=43;
+        int proba=7;
+        int liczbacal=0;
+
+
+        do
+        {
+        Console.WriteLine("Podaj liczbe calkowita od 1-100: "); 
+        liczbacal = int.Parse(Console.ReadLine()); 
+        if(liczbacal<1 || liczbacal>100)
+        {
+            Console.WriteLine("Liczba jest nieprawidlowa");    
+        }
+            
+        if(liczbacal%2==0)
+                {
+                Console.WriteLine("Liczba jest parzysta");
+                }
+                else
+                {
+                Console.WriteLine("Liczba jest nieparzysta");
+                }
+            
+            if(liczbacal>sekret)
+            {
+                Console.WriteLine("Liczba jest za duza");
+                proba=proba-1;
+                Console.WriteLine($"Zostalo {proba} prob");
+                Console.WriteLine("_______________________");
+                
+            }
+            else if(liczbacal<sekret)
+            {
+                Console.WriteLine("Liczba jest za mala");
+                proba=proba-1;
+                Console.WriteLine($"Zostalo {proba} prob"); 
+                Console.WriteLine("_______________________");
+                
+            }
+            else if(liczbacal==sekret)
+            {
+                Console.WriteLine("Wygrana gratulacje");
+                
+            }
+            
+            if(liczbacal!=sekret && proba==0)
+            {
+                Console.WriteLine("Przegrana gratulacje");
+                Console.WriteLine($"Liczba sekretna to {sekret}");
+            }  
+        }while(liczbacal!=sekret && proba!=0);
+        
+          
+        }
+    }
