@@ -1,0 +1,39 @@
+zadanie 2.1
+1 wartość nazwa rodzaj
+2 Jaka jest różnica między deklaracją a inicjalizacją zmiennej? 
+jedno jest statyczne a drugie 
+
+3 double ponieważ w tej zmiennej może trzymać liczbe z przecinkami, a do liczby uczniów int 
+4 Dlaczego nie możemy bezpośrednio dodać do siebie dwóch wartości pobranych metodą Console.ReadLine? 
+ readline zwraca tekst dlatego nie możemy tego dodac
+
+5 Czym różni się zapis 'A' od zapisu "A"? 
+"" w tym zapisujemy lancuch znakow a w tym '' zapisujemy pojedyncza litere
+-
+
+zadanie 2.3
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Podaj 1-sza ocene: ");
+        string ocena1=Console.ReadLine();
+        double Ocena1=int.Parse(ocena1);
+        Console.Write("Podaj 2-ga ocene: ");
+        string ocena2=Console.ReadLine();
+        double Ocena2=int.Parse(ocena2);
+        Console.Write("Podaj 3-cia ocene: ");
+        string ocena3=Console.ReadLine();
+        double Ocena3=int.Parse(ocena3);
+
+        double srednia=(Ocena1+Ocena2+Ocena3)/3;
+        Console.WriteLine($"Srednia ocen wynosi: {srednia}");
+           
+    }
+}

@@ -1,0 +1,26 @@
+zadanie 10.1
+1
+Czym różni się właściwość Length od metody, na przykład ToUpper, pod względem zapisu w kodzie? 
+
+lenght to wlasciwosc w przeciwieństwie do toupper która jest metoda, w lenght nie stawiamy nawiasow
+
+2
+Co zwraca metoda Split i do czego służy podawany jej separator? 
+
+split zwraca lancuch znakow bez np. spacji  
+
+3
+Czym różni się metoda int.TryParse od metody int.Parse przy próbie konwersji błędnego tekstu? 
+
+tryParse zgłasza czy udało się przekonwertować kod a parse nie zglasza
+
+4
+Dlaczego przed porównaniem odpowiedzi użytkownika warto zastosować metodę ToLower? 
+
+ponieważ tolower pomoze nam rozwazyc wszystkie przypadki jeśli użytkownik np. wpisal odpoweidz dużymi literami
+
+5
+Jakie cechy powinien mieć dobry komunikat błędu? 
+
+powinien być konkretny i pomocny, szczegolowo wyjasniac problem
+

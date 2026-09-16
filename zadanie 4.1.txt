@@ -1,0 +1,48 @@
+zadanie 4.1
+1Czym jest iteracja i czym jest pętla nieskończona? 
+iteracja
+petla nieskonczona petla bez końca najczęściej blad
+
+
+2Jaka jest podstawowa różnica między pętlą while a pętlą do-while? 
+tym ze warunek jest sprawdzany na początku w while a w do while na koncu
+
+3Z jakich trzech części składa się nagłówek pętli for? 
+inicjalizacji warunku i modyfikacji
+
+
+4Czym różni się działanie instrukcji break od instrukcji continue?
+break przerywa a continue pomija iteracje
+ 
+5Do czego najlepiej nadaje się pętla foreach? 
+petla nadajaca się do tablic lub po prostu zbioru danych
+
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int suma=0;
+        Console.WriteLine("Podaj liczbe calkowita");
+        string N=Console.ReadLine();
+        int n=int.Parse(N);
+        if(n>10)
+        { 
+        Console.WriteLine("Liczba jest za duza");
+         }
+    
+        for(int i=1; i<=n; i++)
+        {
+           if (i % 2==0) { 
+            suma += i;
+        } 
+        }
+        Console.WriteLine($"Suma liczb parzystych od 1 do 10 wynosi: {suma}");
+            
+    }
+}

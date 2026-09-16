@@ -1,0 +1,54 @@
+zadanie 3.1, 3.3
+1 Czym różni się operator = od operatora ==? 
+= operator przypisania, przypisuje wartość do zmiennej
+== operator porównanie, możemy uzyc np. w ifie żeby porownac czy zmienna ma taka wartosc
+
+2 Jaki wynik zwróci wyrażenie 17 % 5 i co oznacza operator %? 
+% modulo reszta z dzielenia
+wyświetli sama reszte czyli 2
+
+3 Kiedy cały warunek połączony operatorem && jest prawdziwy, a kiedy warunek połączony operatorem ||? 
+ 
+&& oba musza być prawdziwe
+|| przynajmniej jeden jest prawdziwy
+
+4 Do czego służy słowo break w instrukcji switch i co się stanie, jeśli je pominiemy? 
+
+sluzy do przerwania opcji w switchu
+nie przerwie się 
+
+5 Jakiego typu wartość zwracają operatory porównania? 
+true albo false
+
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Podaj liczbe punktow od 0-100");
+        string Punkty=Console.ReadLine();
+        int punkty=int.Parse(Punkty);
+
+        if(punkty>0 && punkty<=50)
+        {
+        Console.WriteLine("Ocena niedostaczna");
+        }
+        else if(punkty>51 && punkty<=74)
+        {
+        Console.WriteLine("Ocena dostateczna"); 
+        }
+        else if(punkty>75 && punkty<=89)
+        {
+        Console.WriteLine("Ocena dobra");
+        }
+        else
+        {
+        Console.WriteLine("Ocena bardzo dobra");
+        }
+            
+    }
+}
