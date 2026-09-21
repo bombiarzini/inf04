@@ -1,0 +1,22 @@
+zadanie11.1
+ 
+1 
+Wyjaśnij różnicę między klasą a obiektem, podając własną analogię.
+ 
+ klasa to przepis a obiekt to ciasto
+2
+Czym różni się pole od właściwości? Dlaczego stosowanie właściwości jest bezpieczniejsze niż udostępnianie pól publicznych?
+ 
+
+
+3
+Wymień dwie cechy szczególne konstruktora, które odróżniają go od zwykłej metody.
+ 
+ nie ma typu zwracalnego
+ nazywa się tak samo jak klasa
+
+4
+ 
+Co oznacza słowo kluczowe this w treści konstruktora i kiedy jest niezbędne?
+
+kiedy nazywamy tak samo jak klasa, kiedy mamy te samy nazwy i chcemy cos przypisac
